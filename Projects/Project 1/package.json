@@ -1,0 +1,19 @@
+{
+  "name": "Zmazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "firebase": "^5.5.3"
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}

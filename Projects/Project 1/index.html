@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- JQuery first, then Firebase -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+
+        <!-- custom JavaScript last -->
+        <script src="app/app.js"></script>
+
+        <!-- add a title -->
+        <title>Sample Project</title>
+
+        <!-- add a navbar -->
+        <nav class = "navbar navbar-expand-lg fixed-top bg-light">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Departments
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Department 1</a>
+                <a class="dropdown-item" href="#">Department 2</a>
+                <a class="dropdown-item" href="#">Department 3</a>
+            </div>
+            <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class = "collapse navbar-collapse justify-content-end">
+                <ul class = "navbar-nav">
+                    <!--<li class="nav-item">
+                        <button type="button" class="btn btn-primary">Filter</button>
+                    </li>-->
+                    <li class = "nav-item">
+                        <a class = "nav-link" href="#">Localization</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href="#">Account</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href="#">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        
+
+    </head>
+
+    <body>
+        <!--Fixed spacing issue, body was hidden behind navbar-->
+        <style>
+            body{
+                padding-top: 70px;
+            }
+        </style>
+
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+            </li>
+        </ul>
+
+        <!-- add a container -->
+        <div class="container"></div>
+    </body>
+
+    <footer>
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <div>
+                <a class="navbar-brand">Resources</a>
+                <div>
+                    <a class="nav-link navbar-brand" href="#">About Us</a>
+                    <a class="nav-link navbar-brand" href="#">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+</html>
